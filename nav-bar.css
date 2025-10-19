@@ -11,17 +11,18 @@
 }
 .logo {
   width: 220px;
-  height: 60px;
+  height: 70px;
   margin-top: 40px;
 }
 .ig-logo {
-  width: 53%;
+  width: 46%;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .nav-main {
   width: 220px;
-  height: 730px;
+  height: 560px;
 }
 .nav-item {
   display: flex;
@@ -64,4 +65,5 @@
 .nav-bottom {
   width: 220px;
   padding: 0 10px;
+  margin-bottom: 10px;
 }
