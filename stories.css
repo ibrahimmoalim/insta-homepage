@@ -1,0 +1,56 @@
+.status {
+  height: 124px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  gap: 16px;
+}
+.button-box {
+  position: absolute;
+  top: 25%;
+  right: 8px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-svg {
+  fill: rgb(245, 243, 243);
+  transform: rotate(180deg);
+  width: 25px;
+  height: 25px;
+}
+.stories {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 120px;
+  justify-content: center;
+}
+.color-box {
+  width: 89px;
+  height: 89px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom left, rgb(228, 33, 186) 20%, rgb(238, 196, 9));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status-img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: 3px solid white;
+  vertical-align: middle;
+}
+.status-name {
+  font-size: 12px;
+  width: 66px;
+  height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+}
