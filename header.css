@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .arrow-svg {
   fill: rgb(245, 243, 243);
@@ -38,6 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .status-img {
   width: 76px;
@@ -53,4 +55,5 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-left: 10px;
+  cursor: pointer;
 }
