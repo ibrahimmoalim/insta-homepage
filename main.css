@@ -129,9 +129,99 @@
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  position: relative;
+}
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 26px;
+  height: 26px;
+  fill: rgb(230, 230, 230);
+  cursor: pointer;
 }
 .content {
   width: 468px;
   height: 585px;
   object-fit: cover;
+}
+.post-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.circle1 {
+  background-color: rgb(255, 255, 255);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.circle2 {
+  background-color: rgb(116, 116, 116);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;  
+}
+
+.post-bottom-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15px;
+}
+.post-interact {
+  display: flex;
+  gap: 20px;
+}
+.icon1 {
+  width: 24px;
+  height: 24px;
+  justify-content: baseline;
+}
+.icon2 {
+  width: 24px;
+  height: 24px;
+}
+.icon3-box {
+  height: 24px;
+  flex: 1;
+  text-align: end;
+}
+.icon3 {
+  width: 24px;
+  height: 24px;
+}
+.icon1, .icon2, .icon3 {
+  cursor: pointer;
+}
+.like-count {
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.post-name2 {
+  display: inline;
+}
+.post-name1 {
+  display: inline;
+  font-weight: 600;
+  cursor: pointer;
+}
+abbr[title] {
+  text-decoration: none;
+  border: none;
+  cursor: default;
+}
+
+.verified1 {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+.post-title {
+  display: inline;
 }
