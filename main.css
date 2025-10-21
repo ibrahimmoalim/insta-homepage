@@ -61,16 +61,18 @@
   gap: 4px;
   align-items: center;
   width: 390px;
-  position: relative;
 }
 .post-name {
   font-weight: 600;
   cursor: pointer;
 }
-.post-name-box .verified-info {
+.tooltip {
+  position: relative;
+}
+.tooltip .verified-info {
   position: absolute;
   bottom: -50px;
-  left: 170px;
+  left: 10px;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 6px;
   border: 1px solid white;
@@ -78,14 +80,18 @@
   border-radius: 6px;
   font-size: 16px;
   opacity: 0;
+  z-index: 100;
+  transition: opacity 0.2s;
+  pointer-events: none;
 }
 .verified {
   width: 14px;
   height: 14px;
   vertical-align: middle;
 }
-.verified:hover .verified-info {
+.tooltip:hover .verified-info {
   opacity: 1;
+  cursor: pointer;
 }
 .post-dot {
   color: rgb(115, 115, 115);
