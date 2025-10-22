@@ -172,6 +172,7 @@
   flex-direction: column;
   width: 100%;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 .post-interact {
   display: flex;
@@ -201,10 +202,12 @@
 .like-count {
   cursor: pointer;
   margin-top: 16px;
+  margin-bottom: 10px;
   font-size: 14px;
 }
 .post-name2 {
   display: inline;
+
 }
 .post-name1 {
   display: inline;
@@ -224,4 +227,50 @@ abbr[title] {
 }
 .post-title {
   display: inline;
+}
+.view-comments {
+  margin-top: 10px;
+  color: rgb(115, 115, 115);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: fit-content;
+  cursor: pointer;
+}
+.comment-area {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(115, 115, 115);
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.comment-input {
+  border: none;
+  flex-grow: 1;
+  max-width: none;
+  resize: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+.comment-input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none
+}
+.emoji {
+  height: 13px;
+  width: 13px;
+  fill: none;
+  border: 1px solid rgb(115, 115, 115);
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(115, 115, 115); 
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.emoji:hover {
+  opacity: 0.5;
 }
