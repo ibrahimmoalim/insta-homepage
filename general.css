@@ -1,4 +1,7 @@
 body {
-  height: 4000px;
+  height: auto;
   font-family: Roboto, Arial;
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns: 190px 1fr;
 }

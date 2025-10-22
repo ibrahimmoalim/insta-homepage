@@ -8,6 +8,7 @@
   bottom: 0;
   top: 0;
   left: 0;
+  background-color: lightcoral;
 }
 .logo {
   width: 220px;
@@ -66,4 +67,49 @@
   width: 220px;
   padding-left: 10px;
   margin-bottom: 10px;
+}
+.hidden-box {
+  background-color: lightseagreen;
+}
+
+@media(max-width: 1260px){
+  .nav-bar{
+    width: 73px;
+  }
+  .nav-text{
+    display: none;
+  }
+  .nav-items{
+    width: 100%;
+  }
+  .hidden-box{
+    width: 73px;
+  }
+  body{
+    grid-template-columns: 73px 1fr;
+  }
+}
+
+@media(max-width: 765px){
+  .nav-bar{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid rgb(209, 209, 209);
+    height: 48px;
+    width: auto;
+  }
+  body{
+    grid-template-columns: 10px 1fr;
+    justify-content: center;
+  }
+  .msg,
+  .image-small .img-small, .img-small1, .img-small2{
+    display: none;
+  }
+  .dm-box {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
 }
