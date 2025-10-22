@@ -69,6 +69,7 @@
 }
 .post-tag {
   font-size: 13px;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
 }
 .tooltip {
   position: relative;
@@ -161,10 +162,23 @@
   fill: rgb(230, 230, 230);
   cursor: pointer;
 }
+.arrow-icon1 {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 26px;
+  height: 26px;
+  fill: rgb(230, 230, 230);
+  cursor: pointer;
+  transform: rotate(180deg);
+}
 .content {
   width: 468px;
   height: 585px;
   object-fit: cover;
+}
+.content1 {
+  display: none;
 }
 .post-dots {
   position: absolute;
@@ -220,15 +234,55 @@
 .icon1, .icon2, .icon3 {
   cursor: pointer;
 }
+.likes-box {
+  display: flex;
+  align-items: center;
+  
+}
+.image-small1 {
+  justify-content: start;
+  display: flex;
+  width: 42px;
+}
+.img-small4 {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.img-small5 {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 1;
+  margin-left: -8px;
+}
+.img-small6 {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 2;
+  margin-left: -8px;
+}
+.img-small1:hover,
+.img-small2:hover,
+.img-small:hover {
+  opacity: 0.8;
+}
 .like-count {
   cursor: pointer;
   margin-top: 16px;
   margin-bottom: 10px;
   font-size: 14px;
+  vertical-align: middle;
 }
 .post-name2 {
   display: inline;
-
 }
 .post-name1 {
   display: inline;
