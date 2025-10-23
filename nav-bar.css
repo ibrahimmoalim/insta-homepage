@@ -71,19 +71,60 @@
 .hidden-box {
   background-color: lightseagreen;
 }
+.iconx{
+  display: none;
+}
 
-@media(max-width: 1260px){
+@media(min-width: 766px) and (max-width: 1260px){
   .nav-bar{
     width: 73px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
   }
   .nav-text{
     display: none;
   }
-  .nav-items{
-    width: 100%;
+  .nav-main{
+    width: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    display: none;
+  }
+  .iconx{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .ig-logo{
+    display: none;
+  }
+  .nav-items, .nav-item{
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-items:hover,
+  .nav-item:hover{
+    border: none;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+  }
+  .nav-bottom{
+    width: 73px;
   }
   .hidden-box{
-    width: 73px;
+    width: 68px;
   }
   body{
     grid-template-columns: 73px 1fr;
@@ -98,18 +139,64 @@
     border-top: 1px solid rgb(209, 209, 209);
     height: 48px;
     width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .iconx{
+    display: none;
+  }
+  .ig-logo,
+  .logo{
+    display: block;
+    width: auto;
+    height: 29px;
+  }
+  .nav-bottom{
+    display: none;
+  }
+  
+  .nav-items,
+  .nav-item{
+    width: 24px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-items:hover,
+  .nav-item:hover {
+    border: none;
+    cursor: pointer;
+    width: 48px;
+  }
+  .nav-main{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   body{
     grid-template-columns: 10px 1fr;
     justify-content: center;
   }
-  .msg,
-  .image-small .img-small, .img-small1, .img-small2{
+  body .dm-box{
     display: none;
   }
-  .dm-box {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-  }
+  .dm-mobile{
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 80px;
+  right: 35px;
+  display: flex;
+}
+  .dm-mobile:hover {
+  cursor: pointer;
+  background-color: rgb(245, 245, 245);
+}
 }
