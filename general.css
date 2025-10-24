@@ -1,7 +1,9 @@
 body {
-  height: auto;
+  min-height: 100vh;
+  min-height: 100dvh;
   font-family: Roboto, Arial;
   display: grid;
-  border: 1px solid red;
-  grid-template-columns: 190px 1fr;
+  grid-template-columns: 245px 1fr;
+  padding: 0;
+  margin: 0;
 }
