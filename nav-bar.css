@@ -71,6 +71,15 @@
   display: none;
 }
 
+.dm-mobile {
+  display: none;
+}
+@media(min-width: 766px) {
+  .mobile-header {
+  display: none;
+}
+}
+
 @media(min-width: 766px) and (max-width: 1260px){
   .nav-bar{
     width: 73px;
@@ -193,6 +202,7 @@
   right: 10px;
   top: 0;
   height: 60px;
+  background-color: white;
 }
 .ig-logo1{
   width: 100px;
