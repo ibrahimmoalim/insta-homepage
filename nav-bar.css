@@ -14,10 +14,12 @@
   height: 70px;
   margin-top: 40px;
 }
-.ig-logo {
+.text-logo {
   width: 46%;
   cursor: pointer;
   margin-left: 10px;
+  font-family: Impact;
+  font-size: 25px;
 }
 
 .nav-main {
@@ -43,6 +45,12 @@
   height: 56px;
   padding-left: 10px;
 }
+
+.notif-icon {
+  height: 26px;
+  width: 26px;
+}
+
 .nav-items:hover,
 .nav-item:hover {
   cursor: pointer;
@@ -116,10 +124,10 @@
     cursor: pointer;
   }
   .iconx{
-    width: 24px;
+    width: 44px;
     padding: 12px;
   }
-  .ig-logo{
+  .text-logo{
     display: none;
   }
   .nav-items, .nav-item{
@@ -204,10 +212,12 @@
   height: 60px;
   background-color: white;
 }
-.ig-logo1{
+.text-logo1{
   width: 100px;
   height: 29px;
   cursor: pointer;
+  font-family: Impact;
+  font-size: 25px;
 }
 .icon:hover{
   cursor: pointer;
