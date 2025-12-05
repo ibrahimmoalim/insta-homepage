@@ -188,7 +188,7 @@
   flex: 1;
 }
 
-@media(max-width: 1158px){
+@media(max-width: 1200px){
   .right-section{
     display: none;
   }

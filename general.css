@@ -1,4 +1,23 @@
 body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial;
+}
+
+.disc {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  overflow: scroll;
+  z-index: 1;
+  padding: 2px 2px;
+  background-color: white;
+  top: 0;
+  border-bottom: 2px solid black;
+};
+
+.main-body {
   min-height: 100vh;
   min-height: 100dvh;
   font-family: Roboto, Arial;
@@ -6,4 +25,4 @@ body {
   grid-template-columns: 245px 1fr;
   padding: 0;
   margin: 0;
-}
+};
